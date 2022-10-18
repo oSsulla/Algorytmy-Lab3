@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorytmy-Lab3-1", "Algorytmy-Lab3-1\Algorytmy-Lab3-1.csproj", "{25BE994C-77EC-466A-B18C-4F1E4C9F16C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytmy_Lab3_1", "Algorytmy-Lab3-1\Algorytmy_Lab3_1.csproj", "{25BE994C-77EC-466A-B18C-4F1E4C9F16C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorytmy_Lab4_2", "Algorytmy-Lab4-2\Algorytmy_Lab4_2.csproj", "{1E3FEA33-8454-488E-8454-F46839AEE18B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BAEF7A7D-B0A7-4FDA-8771-432831B23914}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{25BE994C-77EC-466A-B18C-4F1E4C9F16C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25BE994C-77EC-466A-B18C-4F1E4C9F16C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25BE994C-77EC-466A-B18C-4F1E4C9F16C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3FEA33-8454-488E-8454-F46839AEE18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3FEA33-8454-488E-8454-F46839AEE18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3FEA33-8454-488E-8454-F46839AEE18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3FEA33-8454-488E-8454-F46839AEE18B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
