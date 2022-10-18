@@ -9,6 +9,9 @@ namespace AlgorytmyLab2
             Console.WriteLine(RepeatRecursive("#", 5));
             Console.WriteLine(String.Join(",",Change(14)));
             Console.WriteLine(QuickFib(45));
+            int[] arr = { 3, 4, 1, 2, 7, 8, 9 };
+            BubleSort(arr);
+            Console.WriteLine(string.Join(", ", arr));
         }
         public static string Repeat(string s, int n)
         {
@@ -90,7 +93,18 @@ namespace AlgorytmyLab2
 
         public static void BubleSort(int[] arr)
         {
-
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int j = arr.Length - 1; j > i; j--)
+                {
+                    if (arr[j] < arr[j - 1])
+                    {
+                        int temp = arr[j];
+                        arr[j] = arr[j - 1];
+                        arr[j - 1] = temp;
+                    }
+                }
+            }
         }
     }
 }
