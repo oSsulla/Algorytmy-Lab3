@@ -7,7 +7,7 @@ namespace AlgorytmyLab2
         static void Main(string[] args)
         {
             Console.WriteLine(RepeatRecursive("#", 5));
-            Console.WriteLine(String.Join(",",Change(14)));
+            Console.WriteLine(String.Join(", ", Change(14)));
             Console.WriteLine(QuickFib(45));
             int[] arr = { 3, 4, 1, 2, 7, 8, 9 };
             BubleSort(arr);
